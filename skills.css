@@ -1,0 +1,471 @@
+*{
+    color: white;
+}
+.bghome{
+    position: relative;
+    
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+
+}
+
+.navi{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .ulul a{
+    text-decoration: none;
+    color: white;
+  }
+  .ulul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 ;
+    margin-left: 600px;
+  }
+  .ulul li{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    font-size: 190%;
+    padding-top: 10px;
+    padding-bottom: 12px; 
+    transition: 0.5s;
+  }
+  .ulul li:hover{
+    padding-top: 4px;
+    padding-bottom: 6px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .sk{
+    font-size: 250%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(128,255,194);
+    display: inline-block;
+}
+
+.skill_img{
+    width: 50px;
+    border-left:5px solid white;
+    padding-left: 10px;
+}
+.skills_topbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-right: 30px;
+    padding-left: 40px;
+    border-radius: 20px;
+    width: 240px;
+}
+.intro{
+    margin-left: 55px;
+}
+.skillview{
+    width: 1340px;
+    height:570px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.eng{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.per_e{
+    height: 10px;
+    width: 780px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 72px;
+    margin-left: 110px;
+}
+.total_e{
+    height: 10px;
+    background-color: rgb(60, 38, 201);
+    border-radius: 20px;
+    width: 680px;
+}
+.sph{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.per_s{
+    height: 10px;
+    width: 780px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 72px;
+    margin-left: 134px;
+}
+.total_s{
+    height: 10px;
+    background-color: rgb(60, 38, 201);
+    border-radius: 20px;
+    width: 720px;
+}
+/* rgb(19, 251, 255); */
+
+.opt{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.per_o{
+    height: 10px;
+    width: 780px;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 72px;
+    margin-left: 30px;
+}
+.total_o{
+    height: 10px;
+    background-color: rgb(60, 38, 201);
+    border-radius: 20px;
+    width: 700px;
+}
+.spic1{
+    margin-left: 50px;
+    display: flex;
+    width: 1340px;
+    justify-content: space-evenly;
+}
+.python{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 250px;
+    height: 340px;
+    border-radius: 20px;
+    margin-top: 150px;
+    transition: 0.5s;
+    margin-left: 50px;
+}
+.pyimg{
+    margin-left: 45px;
+    margin-top: 50px;
+    transition: 0.5s;
+
+}
+.pyname{
+    font-size: 30px;
+    text-align: center;
+    /* transition: 0.5s; */
+
+}
+
+/* hover animation */
+
+.python:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 240px;
+    height: 330px;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.pyimg:hover{
+    margin-left: 40px;
+    margin-top: 45px;
+    
+}
+.pyname:hover:before{
+    content: "click here to view certificate of"
+}
+.pyname:hover{
+    font-size: 16px;
+}
+
+.bghome{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 250px;
+    height: 90px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-bottom: 100px;
+}
+.bhome{
+    padding-top: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.bghome:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 260px;
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.bhome:hover{
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+
+
+@media screen and (Width < 600px){
+    *{
+        color: white;
+    }
+    .bghome{
+        position: relative;
+        
+    }
+    
+    body{
+        overflow-x: hidden;
+        font-family: "Klee One", cursive;
+        font-weight: 400;
+    
+    }
+    
+    .navi{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 50px;
+        margin-top: 30px;
+      }
+      .ulul a{
+        text-decoration: none;
+        color: white;
+      }
+      .ulul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        margin: 0 ;
+        margin-left: 600px;
+      }
+      .ulul li{
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 15px;
+        font-size: 190%;
+        padding-top: 10px;
+        padding-bottom: 12px; 
+        transition: 0.5s;
+      }
+      .ulul li:hover{
+        padding-top: 4px;
+        padding-bottom: 6px;
+        padding-left: 35px;
+        padding-right: 35px;
+      }
+      .sk{
+        font-size: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: rgb(128,255,194);
+        display: inline-block;
+    }
+    
+    .skill_img{
+        width: 30px;
+        border-left:5px solid white;
+        padding-left: 10px;
+    }
+    .skills_topbox{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 25px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-right: 10px;
+        padding-left: 40px;
+        border-radius: 20px;
+        width: 240px;
+    }
+    .intro{
+        margin-left: 55px;
+    }
+    .skillview{
+        width: 1340px;
+        height:570px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .eng{
+        margin-top: 30px;
+        margin-left: 100px;
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .per_e{
+        height: 10px;
+        width: 780px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        margin-top: 72px;
+        margin-left: 110px;
+    }
+    .total_e{
+        height: 10px;
+        background-color: rgb(60, 38, 201);
+        border-radius: 20px;
+        width: 680px;
+    }
+    .sph{
+        margin-top: 30px;
+        margin-left: 100px;
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .per_s{
+        height: 10px;
+        width: 780px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 72px;
+        margin-left: 134px;
+    }
+    .total_s{
+        height: 10px;
+        background-color: rgb(60, 38, 201);
+        border-radius: 20px;
+        width: 720px;
+    }
+    /* rgb(19, 251, 255); */
+    
+    .opt{
+        margin-top: 30px;
+        margin-left: 100px;
+        font-size: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    .per_o{
+        height: 10px;
+        width: 780px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 72px;
+        margin-left: 30px;
+    }
+    .total_o{
+        height: 10px;
+        background-color: rgb(60, 38, 201);
+        border-radius: 20px;
+        width: 700px;
+    }
+    .spic1{
+        margin-left: 50px;
+        display: flex;
+        width: 1340px;
+        justify-content: space-evenly;
+    }
+    .python{
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 250px;
+        height: 340px;
+        border-radius: 20px;
+        margin-top: 150px;
+        transition: 0.5s;
+        margin-left: 50px;
+    }
+    .pyimg{
+        margin-left: 45px;
+        margin-top: 50px;
+        transition: 0.5s;
+    
+    }
+    .pyname{
+        font-size: 30px;
+        text-align: center;
+        /* transition: 0.5s; */
+    
+    }
+    
+    /* hover animation */
+    
+    .python:hover{
+        background-color: rgba(255, 255, 255, 0.4);
+        width: 240px;
+        height: 330px;
+        border-radius: 20px;
+        margin-top: 150px;
+    }
+    .pyimg:hover{
+        margin-left: 40px;
+        margin-top: 45px;
+        
+    }
+    .pyname:hover:before{
+        content: "click here to view certificate of"
+    }
+    .pyname:hover{
+        font-size: 16px;
+    }
+    
+    .bghome{
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 250px;
+        height: 90px;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        border-radius: 30px;
+        transition: 0.5s;
+        margin-bottom: 100px;
+    }
+    .bhome{
+        padding-top: 10px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+    .bghome:hover{
+        background-color: rgba(255, 255, 255, 0.4);
+        width: 260px;
+        height: 100px;
+        font-size: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+        border-radius: 30px;
+    }
+    .bhome:hover{
+        padding-top: 15px;
+        text-decoration: none;
+    } 
+}
