@@ -9,7 +9,9 @@ body{
     overflow-x: hidden;
     font-family: "Klee One", cursive;
     font-weight: 400;
-
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .intro{
