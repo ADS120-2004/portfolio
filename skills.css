@@ -248,7 +248,9 @@ body{
         overflow-x: hidden;
         font-family: "Klee One", cursive;
         font-weight: 400;
-    
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
     
     .navi{
@@ -256,7 +258,6 @@ body{
         margin: 0;
         padding: 0;
         margin-bottom: 50px;
-        margin-top: 30px;
       }
       .ulul a{
         text-decoration: none;
@@ -268,16 +269,15 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        width: 50%;
+        width: 70%;
         margin: 0 ;
-        margin-left: 600px;
       }
       .ulul li{
         background-color: rgba(255, 255, 255, 0.1);
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
         border-radius: 15px;
-        font-size: 190%;
+        font-size: 15px;
         padding-top: 10px;
         padding-bottom: 12px; 
         transition: 0.5s;
@@ -285,11 +285,12 @@ body{
       .ulul li:hover{
         padding-top: 4px;
         padding-bottom: 6px;
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
       }
       .sk{
-        font-size: 5px;
+        font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color: rgb(128,255,194);
@@ -313,81 +314,80 @@ body{
         width: 240px;
     }
     .intro{
-        margin-left: 55px;
+        margin-left: 20px;
     }
     .skillview{
-        width: 1340px;
-        height:570px;
+        width: 95%;
+        height:20%;
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 20px;
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 5%;
     }
     .eng{
-        margin-top: 30px;
-        margin-left: 100px;
-        font-size: 50px;
+        /* margin-top: 5%; */
+        margin-left: 5%;
+        font-size: 20px;
         display: flex;
         flex-direction: row;
     }
     .per_e{
         height: 10px;
-        width: 780px;
+        width: 60%;
         background-color: rgb(255, 255, 255);
         border-radius: 20px;
-        margin-top: 72px;
-        margin-left: 110px;
+        /* margin-top: 72px; */
+        margin-left: 5%;
     }
     .total_e{
         height: 10px;
         background-color: rgb(60, 38, 201);
         border-radius: 20px;
-        width: 680px;
+        width: 50%;
     }
     .sph{
-        margin-top: 30px;
-        margin-left: 100px;
-        font-size: 50px;
+        margin-left: 5%;
+        font-size: 20px;
         display: flex;
         flex-direction: row;
     }
     .per_s{
         height: 10px;
-        width: 780px;
-        background-color: white;
+        width: 60%;
+        background-color: rgb(255, 255, 255);
         border-radius: 20px;
-        margin-top: 72px;
-        margin-left: 134px;
+        /* margin-top: 72px; */
+        margin-left: 5%;
     }
     .total_s{
         height: 10px;
         background-color: rgb(60, 38, 201);
         border-radius: 20px;
-        width: 720px;
+        width: 50%;
+    }
     }
     /* rgb(19, 251, 255); */
     
     .opt{
-        margin-top: 30px;
-        margin-left: 100px;
-        font-size: 50px;
+        margin-left: 5%;
+        font-size: 20px;
         display: flex;
         flex-direction: row;
     }
     .per_o{
         height: 10px;
-        width: 780px;
-        background-color: white;
+        width: 60%;
+        background-color: rgb(255, 255, 255);
         border-radius: 20px;
-        margin-top: 72px;
-        margin-left: 30px;
+        /* margin-top: 72px; */
+        margin-left: 5%;
     }
     .total_o{
         height: 10px;
         background-color: rgb(60, 38, 201);
         border-radius: 20px;
-        width: 700px;
+        width: 50%;
     }
     .spic1{
         margin-left: 50px;
