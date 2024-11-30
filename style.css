@@ -685,7 +685,7 @@ margin-top: 30px;
     }
     .naviheader{
         background-color:rgba(255,255,255,0.7) ; 
-        width: 400px; 
+        width: 90%; 
         margin-top: 50px; 
         margin-bottom: 50px;
     }
@@ -1052,7 +1052,7 @@ margin-top: 30px;
         margin-left: 20px;
         margin-top: 40px;
         background-color: rgb(66, 67, 64);
-        width: 380px;
+        width:80%;
         border-radius: 20px;
         margin-bottom: 50px;
         border: solid;
@@ -1073,7 +1073,7 @@ margin-top: 30px;
         display: flex;
         flex-direction: row;
         border-radius: 20px;
-        width: 150px;
+        width: 98%;
         margin-bottom: 20px;
         margin-top: 10px;
         transition: 0.5s;
@@ -1095,7 +1095,7 @@ margin-top: 30px;
         padding-bottom: 10px;
         padding-left: 20px;
         padding-right: 50px;
-        width: 160px;
+        width: 100%;
         background-color: rgba(135, 246, 194, 0.378);
     }
     
@@ -1104,7 +1104,7 @@ margin-top: 30px;
         padding-bottom: 10px;
         padding-left: 20px;
         padding-right: 50px;
-        width: 160px;
+        width: 100%;
         background-color: rgba(65, 149, 239, 0.378);
     }
     
@@ -1113,7 +1113,7 @@ margin-top: 30px;
         padding-bottom: 10px;
         padding-left: 20px;
         padding-right: 50px;
-        width: 160px;
+        width: 100%;
         background-color: rgba(65, 149, 239, 0.378);
     }
     
@@ -1122,7 +1122,7 @@ margin-top: 30px;
         padding-bottom: 10px;
         padding-left: 20px;
         padding-right: 50px;
-        width: 160px;
+        width: 100%;
         background-color: rgba(235, 135, 246, 0.378);
     }
     .email{
