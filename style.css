@@ -1056,7 +1056,7 @@ margin-top: 30px;
         margin-left: 20px;
         margin-top: 40px;
         background-color: rgb(66, 67, 64);
-        width:70%;
+        width:60%;
         border-radius: 20px;
         margin-bottom: 50px;
         border: solid;
@@ -1133,7 +1133,7 @@ margin-top: 30px;
         margin-top: 8px;
         margin-left: 20px;
         border: solid black;
-        width: 250px;
+        width: 45%;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
@@ -1143,20 +1143,20 @@ margin-top: 30px;
         flex-direction: row;
     }
     .eimg{
-        padding-top: 40px;
-        padding-left: 40px;
+        padding-top: 20px;
+        padding-left: 20px;
         width: 30px;
         height: 30px;
     }
     .epara{
         color: black;
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 30px;
-        padding-top: 20px;
+        padding-top: 10px;
         margin-bottom: 40px;
     }
     .ename{
-        width: 200px;
+        width: 80%;
         height: 50px;
         border: solid black;
         border-radius: 10px;
@@ -1176,21 +1176,21 @@ margin-top: 30px;
     }
     .emsg{
         margin-top: 30px;
-        width: 200px;
+        width: 80%;
     }
     .esmt{
         color: black;
         
         margin-top: 30px;
-        margin-left: 50px;
-        font-size: 20px;
+        margin-left: 20px;
+        font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
         color: rgb(128,255,194);
         display: inline-block;
     
         background-color: rgb(66, 67, 64);
-        width: 150px;
+        width: 50%;
         border-radius: 20px;
         padding-top: 20px;
         border: solid;
@@ -1199,7 +1199,7 @@ margin-top: 30px;
     }
     .esmt:hover{
         /* margin-left: 70px; */
-        width: 140px;
+        width: 55%;
         /* padding-top: 30px; */
         /* padding-bottom: 30px; */
     }
