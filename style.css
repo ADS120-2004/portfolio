@@ -1074,6 +1074,7 @@ margin-top: 30px;
     }
     
     .whtap,.fb, .link, .insta{
+        cursor: pointer;
         display: flex;
         flex-direction: row;
         border-radius: 20px;
@@ -1095,45 +1096,46 @@ margin-top: 30px;
         width: 30px;
     }
     .whtap:hover{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 50px;
-        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 98%;
         background-color: rgba(135, 246, 194, 0.378);
     }
     
     .fb:hover{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 50px;
-        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 98%;
         background-color: rgba(65, 149, 239, 0.378);
     }
     
     .link:hover{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 50px;
-        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 98%;
         background-color: rgba(65, 149, 239, 0.378);
     }
     
     .insta:hover{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-        padding-right: 50px;
-        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 98%;
         background-color: rgba(235, 135, 246, 0.378);
     }
     .email{
+        /* height: 100%; */
         margin-top: 8px;
         margin-left: 20px;
         border: solid black;
-        width: 45%;
+        width: 39%;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
@@ -1176,7 +1178,7 @@ margin-top: 30px;
     }
     .emsg{
         margin-top: 30px;
-        width: 81%;
+        width: 80%;
     }
     .esmt{
         color: black;
@@ -1195,13 +1197,16 @@ margin-top: 30px;
         padding-top: 20px;
         border: solid;
         padding-bottom: 20px;
-        transition: 0.8s;
+        transition: 0.3s;
     }
     .esmt:hover{
-        /* margin-left: 70px; */
-        width: 55%;
-        /* padding-top: 30px; */
-        /* padding-bottom: 30px; */
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        margin-left: 20px; 
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .welcome{
         text-align: center;
